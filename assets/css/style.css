@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    margin-top: 20%;
+    margin-top: 50px;
     font-size: 50px;
 }
 h2 {
@@ -27,4 +27,46 @@ ul li a {
 }
 ul li a:hover{
     color: red;
+}
+
+/* ========================= */
+/* ===== form styles ======= */
+/* ========================= */
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+form {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+}
+form:hover {
+    box-shadow: 0 0 40px 10px rgba(0,0,0,0.2);
+}
+
+form .submitBtn {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+form div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+form div label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
